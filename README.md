@@ -20,7 +20,7 @@ Use jitpack to install directly form github
 	
 ```
 <dependency>
-    <groupId>com.github.guymograbi</groupId>
+    <groupId>com.github.coder-on-deck</groupId>
     <artifactId>classes-metadata-mojo</artifactId>
     <version>0.0.0</version>
 </dependency>
@@ -29,5 +29,5 @@ Use jitpack to install directly form github
 # Examples 
 
 ```
-com.github.guymograbi:classes-metadata-mojo:show -Dpkgs=com.github -Dscope=test -Dexcluded=java,org,jodd -DoutputFile=out.json -Dpretty=false
+com.github.coder-on-deck:classes-metadata-mojo:show -Dpkgs=com.github -Dscope=test -Dexcluded=java,org,jodd -DoutputFile=out.json -Dpretty=false
 ```

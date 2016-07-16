@@ -1,13 +1,10 @@
-package com.github.guymograbi;
-
+package com.github.coderondeck;
 
 
 import java.lang.annotation.Annotation;
-import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by home on 7/16/16.

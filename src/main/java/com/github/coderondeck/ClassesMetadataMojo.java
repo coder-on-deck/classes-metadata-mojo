@@ -1,4 +1,4 @@
-package com.github.guymograbi;
+package com.github.coderondeck;
 
 import jodd.util.ClassLoaderUtil;
 import org.apache.maven.artifact.Artifact;

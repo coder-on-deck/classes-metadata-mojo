@@ -1,8 +1,8 @@
-package com.github.guymograbi;
+package com.github.coderondeck;
 
-import com.github.guymograbi.adapters.AnnotationAdapter;
-import com.github.guymograbi.adapters.AnnotationRetentionAdapter;
-import com.github.guymograbi.adapters.AnnotationTargetAdapter;
+import com.github.coderondeck.adapters.AnnotationAdapter;
+import com.github.coderondeck.adapters.AnnotationRetentionAdapter;
+import com.github.coderondeck.adapters.AnnotationTargetAdapter;
 import com.google.common.reflect.ClassPath;
 import com.google.gson.GsonBuilder;
 import org.codehaus.plexus.util.FileUtils;

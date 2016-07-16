@@ -1,4 +1,4 @@
-package com.github.guymograbi.adapters;
+package com.github.coderondeck.adapters;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
