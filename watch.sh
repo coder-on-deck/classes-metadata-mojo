@@ -1,0 +1,1 @@
+nodemon -e java --exec 'mvn clean install'
