@@ -38,5 +38,5 @@ Use jitpack to install directly form github
 # Examples 
 
 ```
-com.github.coder-on-deck:classes-metadata-mojo:show -Dpkgs=com.github -Dscope=test -Dexcluded=java,org,jodd -DoutputFile=out.json -Dpretty=false
+mvn com.github.coder-on-deck:classes-metadata-mojo:show -Dpkgs=com.github -Dscope=test -Dexcluded=java,org,jodd -DoutputFile=out.json -Dpretty=false
 ```
