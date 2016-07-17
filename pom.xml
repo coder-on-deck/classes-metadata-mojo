@@ -38,9 +38,9 @@
 
         <!-- DOES NOT WORK :( -->
         <!--<dependency>-->
-            <!--<groupId>org.jodd</groupId>-->
-            <!--<artifactId>jodd-json</artifactId>-->
-            <!--<version>3.7.1</version>-->
+        <!--<groupId>org.jodd</groupId>-->
+        <!--<artifactId>jodd-json</artifactId>-->
+        <!--<version>3.7.1</version>-->
         <!--</dependency>-->
 
         <dependency>
@@ -58,7 +58,7 @@
             <artifactId>maven-core</artifactId>
             <version>3.0</version>
         </dependency>
-        
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -70,7 +70,29 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>3.2</version>
+                <executions>
+                    <execution>
+                        <id>default-descriptor</id>
+                        <goals>
+                            <goal>descriptor</goal>
+                        </goals>
+                        <phase>process-classes</phase>
+                    </execution>
+                    <execution>
+                        <id>help-descriptor</id>
+                        <goals>
+                            <goal>helpmojo</goal>
+                        </goals>
+                        <phase>process-classes</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
                 <configuration>
                     <!-- or whatever version you use -->
                     <source>1.8</source>
